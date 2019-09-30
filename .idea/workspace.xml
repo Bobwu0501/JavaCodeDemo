@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../a-uco-rds/dbaas-uco-rds" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../uco-rds-core" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../dbaas-uco-rds" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../portal/uco-rds-portal" value="PREVIEW" />
+        <entry key="D:/a-dbaas-backup-restore/dbaas-backup-restore" value="PREVIEW" />
+        <entry key="D:/a-network/network-common-bandwidth-portal" value="PREVIEW" />
+        <entry key="D:/a-portal-OnLineBackup_20190630/dbaas-portal" value="PREVIEW" />
+        <entry key="D:/a-portal-dbaas-1.7.1/dbaas-portal" value="PREVIEW" />
+        <entry key="D:/a-portal-dbaas/dbaas-portal" value="PREVIEW" />
+        <entry key="D:/a-portal-dbaas_0730/dbaas-portal" value="PREVIEW" />
+        <entry key="D:/a-portal-delcmp/dbaas-portal" value="PREVIEW" />
+        <entry key="D:/a-portal-monitor/dbaas-portal" value="PREVIEW" />
+        <entry key="D:/a-uco-dbaas-scheduler/uco-dbaas-scheduler" value="PREVIEW" />
+        <entry key="D:/a-user-core/user-core" value="PREVIEW" />
+        <entry key="D:/transaction-core/transaction-core" value="PREVIEW" />
+        <entry key="D:/transaction-schedule/transaction-schedule" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Customers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.AbstractFactory.Customers" />
+      <module name="JavaCodeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPattern.AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Customers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/nugget-api/nugget-api" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>

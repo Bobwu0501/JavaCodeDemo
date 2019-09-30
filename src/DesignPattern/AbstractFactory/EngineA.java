@@ -6,9 +6,8 @@ package DesignPattern.AbstractFactory;
  * @author wushunyu
  * @date 2019/9/30
  */
-public class BMW523 extends BMW {
-
-    public BMW523() {
-        System.out.println("制造-->BMW523");
+public class EngineA implements Engine{
+    public EngineA() {
+        System.out.println("制造-->EngineA");
     }
 }

@@ -1,4 +1,4 @@
-package DesignPattern.AbstractFactory;
+package DesignPattern.FactoryMethod;
 
 /**
  * 描述：

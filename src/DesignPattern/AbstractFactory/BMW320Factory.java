@@ -6,10 +6,16 @@ package DesignPattern.AbstractFactory;
  * @author wushunyu
  * @date 2019/9/30
  */
-public class BMW320Factory implements BMWFactory {
+public class BMW320Factory implements AbstractFactory {
 
     @Override
-    public BMW320 createBmw() {
-        return new BMW320();
+    public Engine createEngine() {
+        return new EngineA();
     }
+
+    @Override
+    public Aircondition createAircondition() {
+        return new AirconditionA();
+    }
+
 }

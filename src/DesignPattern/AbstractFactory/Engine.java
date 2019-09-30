@@ -6,8 +6,7 @@ package DesignPattern.AbstractFactory;
  * @author wushunyu
  * @date 2019/9/30
  */
-public abstract class BMW {
+public interface Engine {
 
-    public BMW() {
-    }
+    
 }

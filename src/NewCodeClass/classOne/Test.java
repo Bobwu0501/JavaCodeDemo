@@ -6,5 +6,6 @@ public class Test {
         System.out.println("test");
         System.out.println("success github");
         System.out.println("success github");
+        System.out.println("success github");
     }
 }

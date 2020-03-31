@@ -1,5 +1,7 @@
 package BasicsCode.AbstractDemo;
 
+import java.util.StringJoiner;
+
 /**
  * 描述：
  *
@@ -39,7 +41,32 @@ public class Main {
         volvo.run();
         volvo.jiayou();
 
-        String str = "str";
+
+        //字符串拼接
+        //StringJoiner
+        String[] names = {"Bob", "Alice", "Grace"};
+        StringJoiner stringJoiner = new StringJoiner(",");
+        for (String name : names) {
+            stringJoiner.add(name);
+        }
+        System.out.println(stringJoiner.toString());
+
+        String[] nameStr = {"Bob", "Alice", "Grace"};
+        StringJoiner sj = new StringJoiner(", ", "Hello ", "!");
+        for (String name : nameStr) {
+            sj.add(name);
+        }
+        System.out.println(sj.toString());
+
+        //StringBuilder
+        StringBuilder sb = new StringBuilder();
+        sb.append("123");
+        sb.append("456");
+        System.out.println(sb);
+
+
+
+
 
 
     }

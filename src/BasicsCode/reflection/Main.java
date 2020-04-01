@@ -21,7 +21,7 @@ public class Main {
         f.setAccessible(true);
 
         Object value = f.get(maque);
-        System.out.println(value);
+        System.out.println(value);//blue
 
         //通过Class实例获取所有Method信息
         Class birdClass = Bird.class;
@@ -29,19 +29,19 @@ public class Main {
         //获取public - fly()方法，参数为String
         Method fly = birdClass.getMethod("fly", String.class);
         //需要传递一个对象进去bird
-        String asd = (String)fly.invoke(bird, "xique");
-        System.out.println(asd);
+        String xique = (String)fly.invoke(bird, "xique");
+        System.out.println(xique);//xique fly
 
         //private - sing()
         Method sing = birdClass.getDeclaredMethod("sing", int.class);
         sing.setAccessible(true);
         //不传对象进去打印的是private java.lang.Integer BasicsCode.reflection.Bird.sing(int)
-        System.out.println(sing);
+        System.out.println(sing);//private java.lang.Integer BasicsCode.reflection.Bird.sing(int)
 
         //调用静态方法
         Method smile = birdClass.getMethod("smile", String.class);
         String zhuzhu = (String)smile.invoke(null, "zhuzhu");
-        System.out.println(zhuzhu);
+        System.out.println(zhuzhu);//zhuzhu
 
 
     }

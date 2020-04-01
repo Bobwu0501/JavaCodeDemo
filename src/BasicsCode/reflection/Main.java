@@ -40,6 +40,7 @@ public class Main {
 
         //调用静态方法
         Method smile = birdClass.getMethod("smile", String.class);
+        //静态方法调用 obj 传入null
         String zhuzhu = (String)smile.invoke(null, "zhuzhu");
         System.out.println(zhuzhu);//zhuzhu
 

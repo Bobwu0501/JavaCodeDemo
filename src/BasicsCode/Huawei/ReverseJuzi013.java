@@ -1,4 +1,4 @@
-package BasicsCode.Huawei;
+ package BasicsCode.Huawei;
 
 import java.util.Scanner;
 

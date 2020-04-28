@@ -1,4 +1,4 @@
-package BasicsCode.NewCode;
+package BasicsCode.ForOffer;
 
 import java.util.ArrayList;
 import java.util.Stack;

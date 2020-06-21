@@ -1,4 +1,4 @@
-package BasicsCode.test;
+package BasicsCode.ForOffer;
 
 /**
  * @author bobwu

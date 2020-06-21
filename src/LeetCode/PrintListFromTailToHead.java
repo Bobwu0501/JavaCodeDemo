@@ -1,6 +1,4 @@
-package BasicsCode.LeetCode;
-
-import BasicsCode.InvokeDemo.A;
+package LeetCode;
 
 import java.util.ArrayList;
 

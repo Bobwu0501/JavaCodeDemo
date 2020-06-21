@@ -1,5 +1,6 @@
 package BasicsCode.ForOffer;
 
+
 import java.util.ArrayList;
 import java.util.Stack;
 
@@ -11,28 +12,20 @@ import java.util.Stack;
  * @date 2020/4/8
  */
 public class printListFromTailToHead {
-    public class ListNode {
-        int val;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
 
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+
         Stack<Integer> stack = new Stack<>();
-        ListNode tmp = listNode;
-
-        while (tmp != null) {
-            stack.push(tmp.val);
-            tmp = tmp.next;
+        while (listNode != null) {
+            stack.push(listNode.val);
+            listNode = listNode.next;
+        }
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        while (!stack.isEmpty()) {
+            arrayList.add(stack.pop());
         }
 
-        ArrayList<Integer> list = new ArrayList<>();
-        while (!stack.empty()) {
-            list.add(stack.pop());
-        }
-        return list;
+        return arrayList;
+
     }
 }

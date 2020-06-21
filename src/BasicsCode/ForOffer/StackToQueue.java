@@ -24,8 +24,6 @@ public class StackToQueue {
         push(4);
         System.out.println(pop());
 
-
-
     }
 
 
